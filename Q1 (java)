@@ -19,7 +19,7 @@ public class Exercicio_fix {
     
     
     
-    int n1,Elv3;
+    double n1,Elv3;
         
         String sn1;
    
