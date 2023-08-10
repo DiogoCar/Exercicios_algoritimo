@@ -1,0 +1,38 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author Discente
+ */
+public class Exercicio_fix {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+    
+    int n1,n2,Rst;
+        
+        String sn1,sn2;
+   
+        sn1=JOptionPane.showInputDialog(null, "Q2: Digite o primeiro valor: ");
+        sn2=JOptionPane.showInputDialog(null, "Q2: Digite o segundo valor: ");
+        
+       
+       n1= Integer.parseInt(sn1);
+       n2= Integer.parseInt(sn2);
+       
+      Rst = n1 % n2;
+       
+       JOptionPane.showMessageDialog(null,n1 + "%" +n2 + "="+ Rst);
+    }
+    
+    }
+     
